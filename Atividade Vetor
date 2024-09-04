@@ -1,0 +1,42 @@
+// Declarando variáveis como Inteiras, que caibam 100 números cada
+int[] numbersPar;
+numbersPar = new int[100];
+
+int[] numbersImp;
+numbersImp = new int[100];
+
+int indexPar = 0;
+int indexImp = 0;
+
+
+// Laço para percorrer 200 números e separá-los em Par ou ímpar 
+for (int i = 1; i <= 200; i++)
+{
+    if (i % 2 == 0)
+    {
+        numbersPar[indexPar] = i;
+        indexPar++;
+    }
+    else
+    {
+        numbersImp[indexImp] = i;
+        indexImp++;
+    }
+}
+
+
+// Printar o código na tela
+Console.WriteLine("100 Primeiros Números Pares:");
+for (int i = 0; i < numbersPar.Length; i++)
+{
+    Console.Write(numbersPar[i] + " ");
+}
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
+
+Console.WriteLine("100 Primeiros Números Ímpares:");
+for (int i = 0; i < numbersImp.Length; i++)
+{
+    Console.Write(numbersImp[i] + " ");
+}
