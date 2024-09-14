@@ -1,0 +1,42 @@
+COMANDOS GIT
+---
+
+Ver status do repositório local
+git status
+
+Adicionar arquivos NÃO rastreados a serem confirmados
+git add . (símbolo para adicionar tudo que está pendente)
+
+Criar ponto de marcação no projeto/branch
+git commit -m (passar parâmetro de mensagem) "Meu primeiro commit"
+
+Verificar repositórios remotos configurados no repo local
+git remote -v (parâmetro de viwe)
+
+Enviar commits pendentes para o repo(repository) remoto
+git push *origin main* (* muda conforme a necessidade)
+
+Clonar Repositório Remoto na máquina local:
+git clone https://github.com/RhyanMezaroba/Estrutura-de-Dados-24.git
+
+
+COMANDOS .NET
+---
+
+Listar versões instaladas
+dotnet --list-sdks
+
+Criar novo projeto console
+dotnet new console -n "nome" (nome do projeto)
+
+Executar programa
+dornet run
+
+Executar programa com detalhes
+dotnet watch run
+
+Abre o Visual Code na pasta (cd) que vc está
+code .
+
+Seleção para rodar o projeto
+dotnet build *project* *projeto para rodar
