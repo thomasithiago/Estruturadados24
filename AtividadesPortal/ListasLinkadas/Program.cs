@@ -6,7 +6,7 @@ public class Node
     public int Data; 
     public Node Next; 
 
-    // Construtor
+    
     public Node(int data)
     {
         Data = data;
