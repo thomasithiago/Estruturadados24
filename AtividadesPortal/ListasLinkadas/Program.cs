@@ -2,6 +2,7 @@
 
 public class Node
 {
+    
     public int Data; 
     public Node Next; 
 
@@ -13,6 +14,7 @@ public class Node
     }
 }
 
+
 public class LinkedList
 {
     private Node head; 
@@ -22,7 +24,6 @@ public class LinkedList
     {
         head = null;
     }
-
     
     public void AddLast(int data)
     {
@@ -43,6 +44,7 @@ public class LinkedList
         }
     }
 
+
     
     public void AddFirst(int data)
     {
@@ -58,6 +60,8 @@ public class LinkedList
             head = newNode;
         }
     }
+
+    
     public void Remove(int data)
     {
         if (head == null)
@@ -106,6 +110,7 @@ public class LinkedList
         Console.WriteLine("null");
     }
 }
+
 
 class Program
 {
