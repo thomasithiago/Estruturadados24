@@ -5,7 +5,6 @@ public class Node
     public int Data;  
     public Node Next; 
 
-    // Construtor
     public Node(int data)
     {
         Data = data;
@@ -112,8 +111,7 @@ public class CircularLinkedList
 
         Console.WriteLine("Valor não encontrado.");
     }
-
-    // Método para exibir a lista
+    
     public void PrintList()
     {
         if (head == null)
