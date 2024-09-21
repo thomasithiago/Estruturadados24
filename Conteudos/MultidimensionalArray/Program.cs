@@ -34,6 +34,7 @@ foreach (int number in iniNumbers)
      }
 
 }    
+Console.WriteLine();
 
-Console.WriteLine( "o maior número é:" + Maiornumero);
+Console.WriteLine( "o maior número é: " + Maiornumero);
 
