@@ -74,7 +74,7 @@ namespace ProductLocation
             Console.WriteLine();
 
             // Search manually for a product with the ID
-            Console.WriteLine("Search by Product ID: ");
+            Console.WriteLine("Procure o produto pelo ID: ");
             string productId = Console.ReadLine();
 
             if(productLocations.TryGetValue(productId, out string location))
