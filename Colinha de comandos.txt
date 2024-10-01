@@ -17,7 +17,7 @@ Enviar commits pendentes para o repo(repository) remoto
 git push *origin main* (* muda conforme a necessidade)
 
 Clonar Repositório Remoto na máquina local:
-git clone https://github.com/RhyanMezaroba/Estrutura-de-Dados-24.git
+git clone https://github.com/thomasithiago/Estruturadados24t
 
 
 COMANDOS .NET
