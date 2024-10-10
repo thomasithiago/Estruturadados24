@@ -1,0 +1,78 @@
+Definição de Algoritmos
+O Algoritmo é um esquema de resolução de um problema. Pode ser implementado com qualquer sequência de valores ou objetos que tenham uma lógica infinita (por exemplo, a língua portuguesa, a linguagem Pascal, a linguagem C, uma sequência numérica, um conjunto de objetos tais como lápis e borracha), ou seja, qualquer coisa que possa fornecer uma sequência lógica.
+
+Podemos ilustrar um algoritmo pelo exemplo de uma receita culinária, embora muitos algoritmos sejam mais complexos. Um Algoritmo mostra passo a passo os procedimentos necessários para resolução de um problema.
+
+-----------------------------------------------------------------------------
+
+Descrição Narrativa
+A descrição narrativa é o uso da sua língua nativa para descrição dos passos para se resolver um problema.
+
+A vantagem dessa forma de representação é que qualquer um pode fazê-la sem ter conhecimentos avançados.
+
+A desvantagem é que não há um padrão, cada pessoa pode escrever como quiser. Outra desvantagem é a imprecisão, ou seja, a descrição pode não ficar clara e pode-se tirar várias interpretações diferentes de um mesmo algoritmo.
+
+
+-------------------------------------------------------------------------------
+
+Fluxograma
+O fluxograma passou a ser usado para eliminar ambiguidades dos algoritmos. São símbolos gráficos padronizados, cada um representado por uma forma geométrica que implica em uma ação, instrução ou um comando distinto.
+
+Esta forma é intermediária a descrição narrativa e ao pseudocódigo, pois é mais precisa do que a primeira, porém, não se preocupa com detalhes de implementação do programa, como os tipos das variáveis usadas.
+
+--------------------------------------------------------------------------------
+
+Linguagem Algoritma (Pseudocódigo ou Portugol)
+Essa forma de representação surgiu para tentar suprir as deficiências das outras representações. Consiste na definição de uma pseudolinguagem de programação, cujos comandos são em português, mas que já lembram um pouco a estrutura de uma linguagem de programação estruturada, ou seja, a pseudolinguagem se assemelha muito ao modo como os programas são escritos. Isso vai permitir que os algoritmos sejam traduzidos, quase que diretamente, para uma linguagem de programação
+
+--------------------------------------------------------------------------------
+
+Algoritmos de Ordenação
+Algoritmo de ordenação, em ciência da computação, é um algoritmo que coloca os elementos de uma dada sequência em uma certa ordem. Em outras palavras efetua sua ordenação completa ou parcial. O objetivo da ordenação é facilitar a recuperação dos dados de uma lista.
+--------------------------------------------------------------------------------
+
+Para este artigo foram escolhidos alguns algoritmos de ordenação para serem estudados que são: Bubble Sort, Selection Sort, Quick Sort e Insertion Sort.
+-------------------------------------------------------------------------------
+Bubble Sort
+
+Bubble sort é o algoritmo mais simples, mas o menos eficientes. Neste algoritmo cada elemento da posição i será comparado com o elemento da posição i + 1, ou seja, um elemento da posição 2 será comparado com o elemento da posição 3. Caso o elemento da posição 2 for maior que o da posição 3, eles trocam de lugar e assim sucessivamente. Por causa dessa forma de execução, o vetor terá que ser percorrido quantas vezes que for necessária, tornando o algoritmo ineficiente para listas muito grandes.
+
+Selection Sort
+Este algoritmo é baseado em se passar sempre o menor valor do vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois o segundo menor valor para a segunda posição e assim sucessivamente, até os últimos dois elementos.
+
+Neste algoritmo de ordenação é escolhido um número a partir do primeiro, este número escolhido é comparado com os números a partir da sua direita, quando encontrado um número menor, o número escolhido ocupa a posição do menor número encontrado. Este número encontrado será o próximo número escolhido, caso não for encontrado nenhum número menor que este escolhido, ele é colocado na posição do primeiro número escolhido, e o próximo número à sua direita vai ser o escolhido para fazer as comparações. É repetido esse processo até que a lista esteja ordenada.
+
+------------------------------------------------------------------------------
+
+Insertion sort
+O Insertion sort é um algoritmo simples e eficiente quando aplicado em pequenas listas. Neste algoritmo a lista é percorrida da esquerda para a direita, à medida que avança vai deixando os elementos mais à esquerda ordenados.
+
+O algoritmo funciona da mesma forma que as pessoas usam para ordenar cartas em um jogo de baralho como o pôquer.
+
+-------------------------------------------------------------------------------
+
+Quick sort
+O Quicksort é o algoritmo mais eficiente na ordenação por comparação. Nele se escolhe um elemento chamado de pivô, a partir disto é organizada a lista para que todos os números anteriores a ele sejam menores que ele, e todos os números posteriores a ele sejam maiores que ele. Ao final desse processo o número pivô já está em sua posição final. Os dois grupos desordenados recursivamente sofreram o mesmo processo até que a lista esteja ordenada.
+
+------------------------------------------------------------------------------
+
+
+Bubble sort
+------------------------------------------------------------------------------
+Para listas já ordenadas em ordem crescente é o único algoritmo que não realiza movimentações, mas em compensação é o que tem o maior tempo e o maior número de comparações. Não só em listas já ordenadas, mas em todos os casos o bubble sort se mostrou um algoritmo ineficiente.
+-----------------------------------------------------------------------------
+Selection sort
+----------------------------------------------------------------------------
+
+Nas listas de ordem 1 e ordem 3, o selection sort foi o segundo pior algoritmo, mas se mostrou mais eficiente do que o Insertion sort em relação ao tempo e a quantidade de movimentações na lista de ordem 2.
+---------------------------------------------------------------------------
+
+Insertion Sort
+
+----------------------------------------------------------------------------
+Na lista de ordem 1, o Insertion sort se mostrou mais eficiente que todos os outros algoritmos em relação ao tempo e comparações. Na lista de ordem 2 foi menos eficiente do que o selection sort e na lista de ordem 3 a diferença de tempo entre o insertion e o selection foi pequena.
+---------------------------------------------------------------------------
+
+Quick Sort
+
+O quick sort certamente é o algoritmo mais eficiente em listas totalmente desordenadas, ele se torna muito eficiente em relação aos outros no quesito de tempo. Na lista de ordem 3 e na de ordem 2 a diferença de tempo do quick sort em comparação aos outros foi absurdamente grande.
